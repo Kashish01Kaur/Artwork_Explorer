@@ -1,0 +1,13 @@
+.bar{
+     margin-left: 35vw; 
+     
+}
+
+@media (max-width: 600vw) {
+    .navbar-brand{
+        margin-bottom: 4vw;
+    }
+    
+   
+}
+

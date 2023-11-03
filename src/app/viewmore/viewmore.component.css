@@ -1,0 +1,55 @@
+/* .navbar-brand{
+    margin-left: 40vw;
+    
+}
+.wishlist{
+    margin-left:50vw ;
+}
+@media (max-width: 600px) {
+    .navbar-brand {
+      margin-left:1vw;
+    }
+    .wishlist{
+        margin-right: 5vw;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    .container{
+      flex-wrap: wrap;
+        margin-left: 0vw;
+    }
+  } */
+
+  .container {
+    max-width: 100%;
+   
+  }
+  
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .wishlist{
+    margin-left: 60vw;
+  }
+  
+  /* Remove margin-left property from .container element */
+  @media (max-width: 600px) {
+    .container {
+      margin-left: 0;
+      flex-wrap: wrap;
+    }
+   
+    
+    .wishlist {
+      margin-right: 5vw;
+    }
+    
+    img {
+      max-width: 100%;
+      height: 50vw;
+      margin-bottom: 5vw;
+    }
+  }
